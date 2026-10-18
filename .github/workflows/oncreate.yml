@@ -1,0 +1,7 @@
+name: oncreate
+on: create
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "created ${{ github.ref }}"
